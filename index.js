@@ -14,13 +14,18 @@ import Hat2 from "./Hat2/Hat2.js";
 import Scarf2 from "./Scarf2/Scarf2.js";
 import Snowmanface2 from "./Snowmanface2/Snowmanface2.js";
 import Bellyf2 from "./Bellyf2/Bellyf2.js";
-import YouWinRemovebgPreview from "./YouWinRemovebgPreview/YouWinRemovebgPreview.js";
+import _82FearfulEmojiPng from "./_82FearfulEmojiPng/_82FearfulEmojiPng.js";
+import _22GrinningFaceEmojiPng from "./_22GrinningFaceEmojiPng/_22GrinningFaceEmojiPng.js";
+import _65057EmoticonSignalSmileyThumbEmojiFreeFrame from "./_65057EmoticonSignalSmileyThumbEmojiFreeFrame/_65057EmoticonSignalSmileyThumbEmojiFreeFrame.js";
 import Button from "./Button/Button.js";
-import Snowman from "./Snowman/Snowman.js";
-import Rb2 from "./Rb2/Rb2.js";
-import Rightb from "./Rightb/Rightb.js";
-import Down2 from "./Down2/Down2.js";
-import DownButton from "./DownButton/DownButton.js";
+import Ctree from "./Ctree/Ctree.js";
+import Sprite1 from "./Sprite1/Sprite1.js";
+import Sprite2 from "./Sprite2/Sprite2.js";
+import Sprite3 from "./Sprite3/Sprite3.js";
+import Sprite4 from "./Sprite4/Sprite4.js";
+import Sprite5 from "./Sprite5/Sprite5.js";
+import Sprite6 from "./Sprite6/Sprite6.js";
+import Sprite7 from "./Sprite7/Sprite7.js";
 import Next from "./Next/Next.js";
 
 const stage = new Stage({ costumeNumber: 1 });
@@ -28,12 +33,12 @@ const stage = new Stage({ costumeNumber: 1 });
 const sprites = {
   Girlh: new Girlh({
     x: 75,
-    y: -141,
+    y: 144,
     direction: 90,
     costumeNumber: 1,
     size: 24,
-    visible: true,
-    layerOrder: 13
+    visible: false,
+    layerOrder: 24
   }),
   LeftStick: new LeftStick({
     x: 134,
@@ -95,7 +100,7 @@ const sprites = {
     direction: 90,
     costumeNumber: 1,
     size: 20,
-    visible: true,
+    visible: false,
     layerOrder: 12
   }),
   RightHand2: new RightHand2({
@@ -104,7 +109,7 @@ const sprites = {
     direction: 90,
     costumeNumber: 1,
     size: 20,
-    visible: true,
+    visible: false,
     layerOrder: 7
   }),
   Hat2: new Hat2({
@@ -113,7 +118,7 @@ const sprites = {
     direction: 90,
     costumeNumber: 1,
     size: 15,
-    visible: true,
+    visible: false,
     layerOrder: 10
   }),
   Scarf2: new Scarf2({
@@ -122,7 +127,7 @@ const sprites = {
     direction: 90,
     costumeNumber: 1,
     size: 15,
-    visible: true,
+    visible: false,
     layerOrder: 11
   }),
   Snowmanface2: new Snowmanface2({
@@ -131,7 +136,7 @@ const sprites = {
     direction: 90,
     costumeNumber: 1,
     size: 13,
-    visible: true,
+    visible: false,
     layerOrder: 8
   }),
   Bellyf2: new Bellyf2({
@@ -140,80 +145,127 @@ const sprites = {
     direction: 90,
     costumeNumber: 1,
     size: 25,
-    visible: true,
+    visible: false,
     layerOrder: 9
   }),
-  YouWinRemovebgPreview: new YouWinRemovebgPreview({
-    x: -28,
-    y: -14,
+  _82FearfulEmojiPng: new _82FearfulEmojiPng({
+    x: 172,
+    y: 112,
     direction: 90,
     costumeNumber: 1,
-    size: 196.72131147540983,
+    size: 40,
     visible: false,
     layerOrder: 14
   }),
+  _22GrinningFaceEmojiPng: new _22GrinningFaceEmojiPng({
+    x: 172,
+    y: 112,
+    direction: 90,
+    costumeNumber: 1,
+    size: 80,
+    visible: false,
+    layerOrder: 13
+  }),
+  _65057EmoticonSignalSmileyThumbEmojiFreeFrame: new _65057EmoticonSignalSmileyThumbEmojiFreeFrame(
+    {
+      x: 172,
+      y: 112,
+      direction: 90,
+      costumeNumber: 1,
+      size: 25,
+      visible: false,
+      layerOrder: 15
+    }
+  ),
   Button: new Button({
     x: 178,
     y: -137,
     direction: 90,
     costumeNumber: 1,
     size: 30,
-    visible: false,
-    layerOrder: 15
-  }),
-  Snowman: new Snowman({
-    x: 81,
-    y: -140,
-    direction: 90,
-    costumeNumber: 1,
-    size: 30,
     visible: true,
     layerOrder: 16
   }),
-  Rb2: new Rb2({
-    x: 181,
-    y: -90,
+  Ctree: new Ctree({
+    x: 0,
+    y: -1,
     direction: 90,
     costumeNumber: 1,
-    size: 40,
-    visible: true,
+    size: 100,
+    visible: false,
+    layerOrder: 17
+  }),
+  Sprite1: new Sprite1({
+    x: 34,
+    y: -30,
+    direction: 90,
+    costumeNumber: 1,
+    size: 100,
+    visible: false,
+    layerOrder: 21
+  }),
+  Sprite2: new Sprite2({
+    x: -25,
+    y: 69,
+    direction: 90,
+    costumeNumber: 1,
+    size: 100,
+    visible: false,
+    layerOrder: 25
+  }),
+  Sprite3: new Sprite3({
+    x: 34,
+    y: -30,
+    direction: 90,
+    costumeNumber: 1,
+    size: 100,
+    visible: false,
+    layerOrder: 20
+  }),
+  Sprite4: new Sprite4({
+    x: 34,
+    y: -30,
+    direction: 90,
+    costumeNumber: 1,
+    size: 100,
+    visible: false,
     layerOrder: 19
   }),
-  Rightb: new Rightb({
-    x: 181,
-    y: -17,
+  Sprite5: new Sprite5({
+    x: 34,
+    y: -30,
     direction: 90,
     costumeNumber: 1,
-    size: 40,
+    size: 100,
     visible: true,
     layerOrder: 18
   }),
-  Down2: new Down2({
-    x: 180,
-    y: 115,
+  Sprite6: new Sprite6({
+    x: 29,
+    y: 23,
     direction: 90,
     costumeNumber: 1,
-    size: 40,
-    visible: true,
-    layerOrder: 20
+    size: 100,
+    visible: false,
+    layerOrder: 23
   }),
-  DownButton: new DownButton({
-    x: 180,
-    y: 50,
+  Sprite7: new Sprite7({
+    x: 29,
+    y: 23,
     direction: 90,
     costumeNumber: 1,
-    size: 40,
-    visible: true,
-    layerOrder: 17
+    size: 100,
+    visible: false,
+    layerOrder: 22
   }),
   Next: new Next({
-    x: 186,
-    y: -152,
+    x: 177,
+    y: -148,
     direction: 90,
     costumeNumber: 1,
     size: 30,
-    visible: true,
-    layerOrder: 21
+    visible: false,
+    layerOrder: 26
   })
 };
 
